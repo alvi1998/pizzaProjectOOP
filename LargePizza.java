@@ -1,0 +1,11 @@
+public class  LargePizza extends Pizza
+{
+	public static final int PRICE = 1250;
+	@Override
+		public void large()
+	{
+		System.out.println("Large Pizza Rs."+PRICE);
+	}
+   
+	
+}
